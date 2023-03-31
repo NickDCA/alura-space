@@ -1,10 +1,10 @@
-import React from "react";
-import styles from "./Menu.module.scss";
-import home from "../../assets/icones/home-ativo.png";
-import maisCurtidas from "../../assets/icones/mais-curtidas-inativo.png";
-import maisVistas from "../../assets/icones/mais-vistas-inativo.png";
-import novas from "../../assets/icones/novas-inativo.png";
-import surpreendaMe from "../../assets/icones/surpreenda-me-inativo.png";
+import React from 'react'
+import home from '../../assets/icones/home.png'
+import maisCurtidas from '../../assets/icones/mais-curtidas.png'
+import maisVistas from '../../assets/icones/mais-vistas.png'
+import novas from '../../assets/icones/novas.png'
+import surpreendaMe from '../../assets/icones/surpreenda-me.png'
+import styles from './Menu.module.scss';
 
 export default function Menu() {
   return (
@@ -12,7 +12,7 @@ export default function Menu() {
       <ul className={styles.menu__lista}>
         <li className={styles.menu__item}>
           <img src={home} alt="" />
-          <a href="/">Inicio</a>
+          <a href="/">Início</a>
         </li>
         <li className={styles.menu__item}>
           <img src={maisCurtidas} alt="" />
@@ -32,5 +32,5 @@ export default function Menu() {
         </li>
       </ul>
     </nav>
-  );
+  )
 }
